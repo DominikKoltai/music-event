@@ -10,22 +10,22 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <a href="/" className="text-gray-300 hover:text-white">
             Home
           </a>
         </li>
         <li>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <a href="/events" className="text-gray-300 hover:text-white">
             Events
           </a>
         </li>
         <li>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <a href="/artists" className="text-gray-300 hover:text-white">
             Artists
           </a>
         </li>
         <li>
-          <a href="#" className="text-gray-300 hover:text-white">
+          <a href="/contact" className="text-gray-300 hover:text-white">
             Contact
           </a>
         </li>

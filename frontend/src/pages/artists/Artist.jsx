@@ -1,18 +1,16 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Header from "../../components/Header/Header";
-import Content from "../../components/Content/Content";
 import Footer from "../../components/Footer/Footer";
+import ArtistCard from "../../components/ArtistCard/ArtistCard";
 
-const Home = () => {
+const Artist = () => {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
       <Navbar />
-      <Header />
-      <Content />
+      <ArtistCard />
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Artist;
