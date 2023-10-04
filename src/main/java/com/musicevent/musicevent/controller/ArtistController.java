@@ -20,11 +20,11 @@ public class ArtistController {
   @PostMapping(path = "/addArtist")
   public @ResponseBody String addNewArtist(@RequestParam String img, @RequestParam String name,
       @RequestParam String genre) {
-    Artist n = new Artist();
-    n.setImg(img);
-    n.setName(name);
-    n.setGenre(genre);
-    artistRepository.save(n);
+    Artist artist = new Artist();
+    artist.setImg(img);
+    artist.setName(name);
+    artist.setGenre(genre);
+    artistRepository.save(artist);
     return "Saved";
   }
 
