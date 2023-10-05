@@ -12,8 +12,8 @@ const EventCard = () => {
       ) : (
         <>
           <div>
-            {data.map((d, i) => (
-              <div key={i}>
+            {data.map((d) => (
+              <div key={d.id}>
                 <img
                   src={d.img}
                   alt="Event"
@@ -21,7 +21,7 @@ const EventCard = () => {
                 />
                 <h3 className="text-xl font-bold mb-2">{d.name}</h3>
                 <p className="text-gray-300">{d.date}</p>
-                <p className="text-gray-300">{d.description}</p>
+                <p className="text-gray-300">{d.desc}</p>
                 <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded mt-4 mb-4">
                   Buy Tickets
                 </button>

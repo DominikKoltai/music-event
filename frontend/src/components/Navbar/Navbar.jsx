@@ -2,12 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 p-4">
-      <ul className="flex justify-between">
+    <nav className="bg-gray-800 pr-6">
+      <ul className="flex justify-between items-center">
         <li>
-          <a href="/" className="text-xl font-bold text-gray-300 hover:text-white">
-            Music Event Site
-          </a>
+          <img src="https://i.imgur.com/e589CTd.png" alt="logo" className="h-20" />
         </li>
         <li>
           <a href="/" className="text-gray-300 hover:text-white">
